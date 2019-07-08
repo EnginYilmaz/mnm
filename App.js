@@ -20,7 +20,7 @@ import { Container, Content, Header, Body, Icon } from 'native-base';
 import './src/Translations.js';
 import { registerRootComponent } from 'expo';
 
-import NavigationService from './NavigationService';
+import NavigationService from './NavigationService'; 
 
 
 export default class App extends React.Component {
