@@ -4,6 +4,7 @@ I18n.fallbacks = true;
 
 I18n.translations = {
     en: {
+        i18n_cannot_detect_your_address: 'Sorry but we could\'nt dedect your location please provide with your address',
         i18n_enter_valid_email: 'Please enter a valid email address',
         i18n_email_validation: 'Do not forget to validate your email address after you press Register button',
         i18n_find_my_address: 'Find my Geo Location',
@@ -79,6 +80,7 @@ I18n.translations = {
         i18n_send_comment: 'Send comment',
     },
     tr: {
+        i18n_cannot_detect_your_address: 'Üzgünüz, adresinizi belirleyemedik, lütfen bir adres girer misiniz. Örneğin; İstanbul, Kadıköy gibi.',
         i18n_enter_valid_email: 'Lütfen geçerli bir email adresi girin',
         i18n_email_validation: 'Kayıt ol düğmesine bastıktan sonra eposta adresinize gelecek olan onay postasındaki linke tıklamayı onutmayınız.',
         i18n_find_my_address: 'Adresimi bul',
@@ -152,6 +154,7 @@ I18n.translations = {
         i18n_send_comment: 'Yorum gönder',
     },
     ru: {
+        i18n_cannot_detect_your_address: 'Извините, но мы не смогли определить ваше местоположение, укажите ваш адрес',        
         i18n_enter_valid_email: 'Пожалуйста, введите действительный адрес электронной почты',
         i18n_email_validation: 'Не забудьте подтвердить свой адрес электронной почты после нажатия кнопки Зарегистрироваться',        i18n_find_my_address: 'найди мой адрес',
         i18n_reply: 'Ответить',
@@ -226,7 +229,7 @@ I18n.translations = {
         i18n_send_comment: 'Отправить комментарий',
     },
     fil: {
-        i18n_enter_valid_email: 'Mangyaring magpasok ng wastong email address',
+        i18n_cannot_detect_your_address: 'Paumanhin ngunit hindi namin makita ang iyong lokasyon mangyaring magbigay sa iyong address',
         i18n_email_validation: 'Huwag kalimutang patunayan ang iyong email address pagkatapos mong pindutin ang pindutan ng Magrehistro',
         i18n_find_my_address: 'hanapin ang aking address',
         i18n_reply: 'Sumagot',
@@ -301,6 +304,7 @@ I18n.translations = {
         i18n_send_comment: 'Magpadala ng komento',
     },
     es: {
+        i18n_cannot_detect_your_address: 'Lo sentimos, pero no pudimos detectar su ubicación, proporcione su dirección',        i18n_enter_valid_email: 'Mangyaring magpasok ng wastong email address',
         i18n_enter_valid_email: 'Introduzca una dirección de correo electrónico válida',
         i18n_email_validation: 'No olvide validar su dirección de correo electrónico después de presionar el botón Registrar',
         i18n_find_my_address: 'Buscar mi ubicación geográfica',

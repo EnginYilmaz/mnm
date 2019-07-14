@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import { AsyncStorage, Text, View, Image } from 'react-native'
 import { Spinner, Button, Card, CardDikey, Minput } from '../common';
 import I18n from 'ex-react-native-i18n';
-//import { createStackNavigator } from 'react-navigation'; // Version can be specified in package.json
 import * as Permissions from 'expo-permissions';
+import { Notifications } from 'expo';
 import {withNavigation} from 'react-navigation';
 
 //pazar

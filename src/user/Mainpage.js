@@ -1,8 +1,6 @@
 import React from 'react';
 import { Text } from 'react-native';
 import { Button, Card, CardDikey} from '../common';
-import { createStackNavigator } from 'react-navigation'; // Version can be specified in package.json
-
 
 const Mainpage = () => {
 

@@ -28,7 +28,7 @@
       "supportsTablet": true
     },
     "android": {
-      "versionCode": 31,
+      "versionCode": 32,
       "package": "com.masseusenearme.massage",
       "config": {
         "googleMaps": {

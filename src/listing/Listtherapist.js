@@ -50,8 +50,9 @@ export default class Listtherapist extends Component {
       ltd = this.state.ltd;
       lng = this.state.lng;
     }
-    console.log(ltd+" " + lng + " " + distance);
+    //console.log(ltd+" " + lng + " " + distance);
     let myURL = 'https://www.masseusenearme.com:443/query_maps.php' + '?latitude=' + ltd + '&longitude=' + lng + '&distance=' + distance
+    console.log(myURL)
     var request = new XMLHttpRequest();
     request.responseType = 'json';
     request.onreadystatechange = (e) => {

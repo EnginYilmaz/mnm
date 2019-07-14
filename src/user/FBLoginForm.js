@@ -10,7 +10,7 @@ class LoginForm extends Component {
     try {
       await AsyncStorage.setItem(key, value);
     } catch (error) {
-      ////////console.log("Error saving data" + error);
+ 
     }
   }
 

@@ -3,6 +3,8 @@ import { Text, Platform, Image, AsyncStorage, View } from 'react-native';
 import RegisterForm from './RegisterForm.js';
 import I18n from 'ex-react-native-i18n';
 import * as Permissions from 'expo-permissions';
+import * as Location from 'expo-location';
+
 import Constants from 'expo-constants';
 import { Button, Input } from '../common';
 
@@ -80,7 +82,7 @@ export default class Plainregister extends Component {
     } else {
       return (
         <View style={{ height: '30%', width: '100%' }}>
-          <Text>Sorry but we could'nt dedect your location please provide with your address</Text>
+          <Text>{I18n.t('i18n_cannot_detect_your_address')}</Text>
           <Input
             placeholder={I18n.t('i18n_your_address')}
             label={I18n.t('i18n_your_address')}
